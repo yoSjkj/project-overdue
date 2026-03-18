@@ -1,0 +1,36 @@
+[
+  {
+    "id": "lost_page",
+    "title": "떨어진 페이지",
+    "description": "서가 사이에서 이상한 페이지가 떨어져 있다. 줍겠는가?",
+    "options": [
+      {
+        "text": "줍는다",
+        "effect": { "addCard": "random" },
+        "flavor": "\"저건 제 관할이 아닌 것 같은데요...\" 책이 중얼거린다."
+      },
+      {
+        "text": "무시한다",
+        "effect": { "heal": 5 },
+        "flavor": "현명한 선택입니다. 모르는 페이지는 건드리지 않는 것이 좋습니다."
+      }
+    ]
+  },
+  {
+    "id": "reading_room",
+    "title": "이상한 독서실",
+    "description": "아무도 없는 독서실. 책상 위에 노트가 있다.",
+    "options": [
+      {
+        "text": "노트를 읽는다",
+        "effect": { "removeCard": true },
+        "flavor": "\"카드 제거 효과입니다. 덱 압축에 유효합니다.\" 책이 안내한다."
+      },
+      {
+        "text": "그냥 지나친다",
+        "effect": {},
+        "flavor": "집에 가고 싶다는 생각만 든다."
+      }
+    ]
+  }
+]

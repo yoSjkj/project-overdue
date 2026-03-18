@@ -1,0 +1,104 @@
+[
+  {
+    "id": "basic_attack",
+    "name": "기본 서체",
+    "type": "attack",
+    "cost": 1,
+    "description": "적에게 6 데미지",
+    "effect": { "damage": 6 },
+    "qteEffect": { "damage": 9 },
+    "isStarter": true
+  },
+  {
+    "id": "basic_defense",
+    "name": "기본 양장본",
+    "type": "defense",
+    "cost": 1,
+    "description": "방어도 5 획득",
+    "effect": { "block": 5 },
+    "qteEffect": { "block": 8 },
+    "isStarter": true
+  },
+  {
+    "id": "flame_script",
+    "name": "화염 서체",
+    "type": "attack",
+    "cost": 1,
+    "description": "적에게 8 데미지",
+    "effect": { "damage": 8 },
+    "qteEffect": { "damage": 12 }
+  },
+  {
+    "id": "ink_explosion",
+    "name": "잉크 폭발",
+    "type": "attack",
+    "cost": 2,
+    "description": "전체 적에게 5 데미지",
+    "effect": { "damage": 5, "targetAll": true },
+    "qteEffect": { "damage": 8, "targetAll": true }
+  },
+  {
+    "id": "paper_crane",
+    "name": "종이학 난무",
+    "type": "attack",
+    "cost": 2,
+    "description": "적에게 3 데미지 × 3회",
+    "effect": { "damage": 3, "hits": 3 },
+    "qteEffect": { "damage": 3, "hits": 4 }
+  },
+  {
+    "id": "overdue_fee",
+    "name": "연체료 징수",
+    "type": "attack",
+    "cost": 1,
+    "description": "적에게 매 턴 4 데미지 (DoT)",
+    "effect": { "dot": 4, "dotDuration": 3 },
+    "qteEffect": { "dot": 6, "dotDuration": 3 }
+  },
+  {
+    "id": "hardcover_wall",
+    "name": "양장본 방벽",
+    "type": "defense",
+    "cost": 1,
+    "description": "방어도 7 획득",
+    "effect": { "block": 7 },
+    "qteEffect": { "block": 11 }
+  },
+  {
+    "id": "bookmark_barrier",
+    "name": "책갈피 결계",
+    "type": "defense",
+    "cost": 1,
+    "description": "1턴간 받는 피해 50% 감소",
+    "effect": { "damageReduction": 0.5, "duration": 1 },
+    "qteEffect": { "damageReduction": 0.5, "duration": 2 }
+  },
+  {
+    "id": "index_search",
+    "name": "색인 검색",
+    "type": "skill",
+    "cost": 1,
+    "description": "덱에서 카드 1장을 손패로",
+    "effect": { "search": 1 },
+    "qteEffect": { "search": 2 }
+  },
+  {
+    "id": "return_process",
+    "name": "반납 처리",
+    "type": "skill",
+    "cost": 1,
+    "description": "손패 카드 1장 영구 제거",
+    "effect": { "exhaust": 1 },
+    "qteEffect": { "exhaust": 1, "draw": 1 },
+    "isStarter": true
+  },
+  {
+    "id": "librarian_shush",
+    "name": "사서의 쉿!",
+    "type": "skill",
+    "cost": 2,
+    "description": "적 1턴 행동 불가",
+    "effect": { "stun": 1 },
+    "qteEffect": { "stun": 2 }
+  }
+]

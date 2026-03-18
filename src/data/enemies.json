@@ -1,0 +1,58 @@
+[
+  {
+    "id": "encyclopedia",
+    "name": "걸어다니는 백과사전",
+    "floor": 1,
+    "type": "normal",
+    "hp": 28,
+    "maxHp": 28,
+    "pattern": ["attack", "attack", "defend"],
+    "attack": 6,
+    "block": 4,
+    "description": "방대한 지식의 무게로 짓누릅니다",
+    "color": "#8B6914"
+  },
+  {
+    "id": "tentacle_bookmark",
+    "name": "촉수 북마크",
+    "floor": 1,
+    "type": "normal",
+    "hp": 18,
+    "maxHp": 18,
+    "pattern": ["attack", "attack", "attack"],
+    "attack": 8,
+    "block": 0,
+    "description": "페이지 사이에서 솟아나는 촉수",
+    "color": "#4B0082"
+  },
+  {
+    "id": "ink_puddle",
+    "name": "의식 있는 잉크 웅덩이",
+    "floor": 1,
+    "type": "normal",
+    "hp": 22,
+    "maxHp": 22,
+    "pattern": ["debuff", "attack", "debuff"],
+    "attack": 5,
+    "block": 0,
+    "debuff": { "type": "weak", "duration": 2 },
+    "description": "번지는 잉크가 의지를 갖습니다",
+    "color": "#1a1a2e"
+  },
+  {
+    "id": "floor1_boss",
+    "name": "연체된 금서",
+    "floor": 1,
+    "type": "boss",
+    "hp": 90,
+    "maxHp": 90,
+    "pattern": ["attack", "attack", "defend", "strong_attack"],
+    "attack": 14,
+    "strongAttack": 22,
+    "block": 8,
+    "phase2Threshold": 0.5,
+    "phase2Pattern": ["strong_attack", "attack", "strong_attack"],
+    "description": "237년간 반납되지 않은 책의 원한",
+    "color": "#8B0000"
+  }
+]

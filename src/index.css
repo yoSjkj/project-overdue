@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #e8e8e8;
+  font-family: 'Courier New', monospace;
+  overflow: hidden;
+  touch-action: manipulation;
+}
+
+/* 픽셀아트 렌더링 */
+canvas, img {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
