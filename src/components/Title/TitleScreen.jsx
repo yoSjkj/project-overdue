@@ -19,7 +19,7 @@ export default function TitleScreen() {
         fontWeight: 'normal',
         margin: 0,
       }}>
-        금서의 서점
+        (제목 미정)
       </h1>
 
       <div style={{

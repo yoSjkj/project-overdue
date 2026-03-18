@@ -1,4 +1,4 @@
-# 금서의 서점 — 기술 스택
+# (제목 미정) — 기술 스택
 
 ## 코어
 
@@ -120,7 +120,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: '금서의 서점',
+        name: '(제목 미정)',
         short_name: 'Overdue',
         theme_color: '#0a0a0a',
         display: 'standalone',
